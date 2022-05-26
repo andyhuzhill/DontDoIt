@@ -1,0 +1,42 @@
+GET http://localhost:8080/login
+
+{
+    "NickName": "AndyScout"
+}
+
+###
+GET http://localhost:8080/createroom
+
+{
+    "playerId": 5577006791947779410
+}
+
+
+###
+GET http://localhost:8080/joinroom
+
+{
+    "roomId": 6129484611666145821,
+    "playerId": 6129484611666145821
+}
+
+
+###
+GET http://localhost:8080/leaveroom
+
+{
+    "roomId": 8674665223082153551,
+    "playerId": 6129484611666145821
+}
+
+
+###
+GET http://localhost:8080/roominfo
+
+{
+    "roomId": 6129484611666145821
+}
+
+
+###
+GET http://localhost:8080/roomlist
